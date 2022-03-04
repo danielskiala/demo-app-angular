@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GalleryComponent } from './gallery/gallery.component';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    GalleryComponent
+    GalleryComponent,
+    HowItWorksComponent
   ],
   imports: [
     BrowserModule,
